@@ -1,0 +1,112 @@
+2020-06-15 18:55:06,086 ERROR: Exception on /index [GET] [in /home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py:1892]
+Traceback (most recent call last):
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask_login/utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/hp/Qaari/app/routes.py", line 28, in index
+    return render_template('index.html', title="Home", user=user, posts=posts)
+UnboundLocalError: local variable 'posts' referenced before assignment
+2020-06-16 15:33:02,980 INFO: Qaari startup [in /home/hp/Qaari/app/__init__.py:43]
+2020-06-16 15:33:19,985 ERROR: Exception on /index [GET] [in /home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py:1892]
+Traceback (most recent call last):
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask_login/utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/hp/Qaari/app/routes.py", line 28, in index
+    return render_template('index.html', title="Home", user=user, posts=posts)
+UnboundLocalError: local variable 'posts' referenced before assignment
+2020-06-16 15:33:20,087 ERROR: Exception on /favicon.ico [GET] [in /home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py:1892]
+Traceback (most recent call last):
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py", line 1926, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py", line 1908, in raise_routing_exception
+    raise request.routing_exception
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/ctx.py", line 350, in match_request
+    result = self.url_adapter.match(return_rule=True)
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/werkzeug/routing.py", line 1945, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py", line 1816, in handle_user_exception
+    return self.handle_http_exception(e)
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py", line 1744, in handle_http_exception
+    return handler(e)
+TypeError: not_found_error() takes 0 positional arguments but 1 was given
+2020-06-16 15:33:39,821 ERROR: Exception on /index [GET] [in /home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py:1892]
+Traceback (most recent call last):
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask_login/utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/hp/Qaari/app/routes.py", line 28, in index
+    return render_template('index.html', title="Home", user=user, posts=posts)
+UnboundLocalError: local variable 'posts' referenced before assignment
+2020-06-16 15:39:34,733 INFO: Qaari startup [in /home/hp/Qaari/app/__init__.py:43]
+2020-06-16 15:39:59,361 ERROR: Exception on /user/harami/abc [GET] [in /home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py:1892]
+Traceback (most recent call last):
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py", line 1926, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py", line 1908, in raise_routing_exception
+    raise request.routing_exception
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/ctx.py", line 350, in match_request
+    result = self.url_adapter.match(return_rule=True)
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/werkzeug/routing.py", line 1945, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py", line 1816, in handle_user_exception
+    return self.handle_http_exception(e)
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py", line 1744, in handle_http_exception
+    return handler(e)
+TypeError: not_found_error() takes 0 positional arguments but 1 was given
+2020-06-16 21:31:48,247 INFO: Qaari startup [in /home/hp/Qaari/app/__init__.py:43]
