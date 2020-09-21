@@ -7,7 +7,7 @@ from flask_mail import Mail
 import logging
 from logging.handlers import SMTPHandler, RotatingFileHandler
 import os
-from flask_bootsrap import Bootstrap
+from flask_bootstrap import Bootstrap
 
 app = Flask(__name__)
 
