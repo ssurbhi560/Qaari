@@ -94,3 +94,5 @@ Traceback (most recent call last):
     return render_template('index.html', title=('Explore'),
 NameError: name '_' is not defined
 2020-09-22 20:23:49,935 INFO: Qaari startup [in /home/hp/Qaari/app/__init__.py:71]
+2020-09-22 20:26:00,563 INFO: Qaari startup [in /home/hp/Qaari/app/__init__.py:71]
+2020-09-24 21:51:24,243 INFO: Qaari startup [in /home/hp/Qaari/app/__init__.py:71]
