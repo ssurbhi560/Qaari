@@ -97,3 +97,23 @@ NameError: name '_' is not defined
 2020-09-22 20:26:00,563 INFO: Qaari startup [in /home/hp/Qaari/app/__init__.py:71]
 2020-09-24 21:51:24,243 INFO: Qaari startup [in /home/hp/Qaari/app/__init__.py:71]
 2020-09-24 23:40:59,312 INFO: Qaari startup [in /home/hp/Qaari/app/__init__.py:78]
+2020-09-25 00:12:49,017 INFO: Qaari startup [in /home/hp/Qaari/app/__init__.py:78]
+2020-09-25 00:16:30,433 ERROR: Exception on /unfollow/Surbhi [POST] [in /home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py:1892]
+Traceback (most recent call last):
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/hp/.virtual_envs/Qaari/lib/python3.7/site-packages/flask_login/utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/hp/Qaari/app/main/routes.py", line 125, in unfollow
+    flash('You are not following %(username)s.', username=username)
+TypeError: flash() got an unexpected keyword argument 'username'
