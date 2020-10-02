@@ -21,9 +21,11 @@
 > `pip3 install requirements.txt`
 
 5. Now `cd` to the directory where you cloned `Qaari`, and (ensure venv is activated) set the environment variable by:
- `export FLASK_APP=qaari.py` 
- `export FLASK_DEBUG=1`
- `export FLASK_ENV=development`
+> `export FLASK_APP=qaari.py` 
+
+> `export FLASK_DEBUG=1`
+
+> `export FLASK_ENV=development`
 
 6. The project can run only when the vitrual environment is activated. Or perhaps you have the dependencies globally installed.
 
