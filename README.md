@@ -1,5 +1,5 @@
 # Qaari
-    A not so social netwoking platform for people who like to read and share their book recommendation.
+    A not so social netwoking platform for people for people who'd like to share their books recommendation or anything which they found is a good read. Others can refer for good suggestions without any other useless noise. 
 
 ## Current production environment
 	Site hosted at https://qaari-24.herokuapp.com
