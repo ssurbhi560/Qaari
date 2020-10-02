@@ -127,3 +127,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+logs $ git rm --cached debug.log rm logs $ git commit -m Start ignoring logs
