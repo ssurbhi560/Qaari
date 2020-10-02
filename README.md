@@ -24,4 +24,4 @@ So, manually change the URL to whatever route you like.
 Refer to `qaari.py` for all routes, and manually change the URLs to navigate.
 
 # Useful links
-  - [venv](https://docs.python.org/3/library/venv.html#module-venv)i
+  - [venv](https://docs.python.org/3/library/venv.html#module-venv)
