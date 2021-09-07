@@ -18,7 +18,7 @@
 3. Activate it by `source Qaari/bin/activate`. You may use any other name than `Qaari`, but make sure to use the same name while activating the virtual environment.
 
 4. Run `pip install --upgrade pip` to, as expected, upgrade pip, and then install the dependencies by:
-> `pip3 install requirements.txt`
+> `pip3 install -r requirements.txt`
 
 5. Now `cd` to the directory where you cloned `Qaari`, and (ensure venv is activated) set the environment variable by:
 > `export FLASK_APP=qaari.py` 
